@@ -1,0 +1,118 @@
+WebValue2ApiValue_Map: #web上的显示项及对应的api的参数的map
+    Access Points:
+        Band Steering:
+            Disable Band Steering: 0
+            2G in priority: 1
+            5G in priority: 2
+            Balance: 3
+        2.4G Mode:
+            802.11b: 0
+            802.11g: 1
+            802.11n: 2
+        Channel:
+            Auto: 0
+        2.4G Radio Power: 
+            Low: 0
+            Medium: 1
+            High: 2
+            Custom: 3
+        2.4G Channel Width:
+            20MHz: 0
+            20MHz/40MHz: 1
+        2.4G Active Spatial Streams:
+            Auto: 0
+            1 Stream: 1
+            2 Streams: 2
+        40MHz Channel Location: 
+            Auto: 0
+            Secondary Below Primary: 1
+            Primary Below Secondary: 2
+        5G Mode:
+            802.11ac: 0
+        5G Channel Width:
+            20MHz: 0
+            40MHz: 1
+            80MHz: 2
+        5G Channel:
+            Auto: 0
+        5G Active Spatial Streams:
+            Auto: 0
+            1 Stream: 1
+            2 Streams: 2
+        5G Radio Power:
+            Low: 0
+            Medium: 1
+            High: 2
+            Custom: 3
+    Time Policy List:
+        Reset Cycle:
+            Reset Daily: 1
+            Reset Weekly: 2
+            Reset Periodically: 3
+        Enable Time Policy:
+            Disable: 0
+            Enable: 1
+    SSIDs:
+        SSID Band:
+            2.4GHz: 2
+            5G: 5
+            Dual-Band: !!str
+        Security Mode:
+            WEP64-bit: 0
+            WEP128-bit: 1
+            WPA/WPA2: 2
+            WPA2: 3
+            Open: 4
+        WPA Key Mode:
+            PSK: 0
+            802.1x: 1
+        WPA Encryption Type:
+            AES: 0
+            AES/TKIP: 1
+        Captive Portal Policy:
+        MAC Filter:
+            Disabled: 0
+            Whitelist: 1
+            Blacklist: 2
+        Client Time Policy:
+        Schedule:
+        Client Isolation Mode:
+            Radio: 0
+            Internet: 1
+            GatewayMAC: 2
+    Captive Portal:
+        Authentication Type: 
+            No authentication：0
+            Simple Password：1
+            Social Login Authentication：2
+            Radius Server：3
+        Landing Page:
+            Redirect to the original URL: 0
+            Redirection of external web pages: 1
+        Enable HTTPS:
+            Disable: 0
+            Enable: 1
+        WeChat:
+            Disable：0
+            Enable：1
+        Facebook:
+            Disable: 0
+            Enable: 1
+        Twitter:
+            Disable: 0
+            Enable: 1
+        Radius Authentication Method:
+            PAP: 0
+            CHAP: 1
+            MS-CHAP: 2
+    Bandwidth Rules:
+        Range Constraint:
+            All: 0
+            Single MAC: 1
+            Single IP Address: 2
+        Upstream Unit:
+            Mbps: 0
+            Kbps: 1
+        Downstream Unit:
+            Mbps: 0
+            Kbps: 1

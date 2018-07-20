@@ -1,0 +1,184 @@
+API:
+    #common
+    countryList: app/countries?type=0&networkId=                    # 国家列表
+    menuList: app/menu/list                                         # 获取网络组的菜单，get target network's menulist
+    networkChoose: app/menu/list?network=                           #选择网络组
+    getNetworks: app/networks                                       # 获取网络组，get all networks in left area in target account
+    timezoneList: app/timezones?type=0&networkId=                                   # 获取时区
+    #getCurrentTimezone: app/timezones?type=0&networkId=
+    apDeviceType: app/ap/configure/devices                          # AP--设备类型
+    ssidIdList: app/ssid/ssids                                      # ssidId下拉菜单
+    changeLanguage: app/account/modify_lang                         # 切换语言
+
+    #Account
+    signUp: app/signUp                                              # 注册
+    login: app/login                                                # 登录
+    logout: app/logout                                              # 登出
+    checkName: app/checkName                                        # 校验用户名是否已存在
+    checkSetAccount: app/account/checkName                          # 校验设置中用户名是否已存在
+    checkEmail: app/checkEmail                                      # 校验邮箱是否已存在
+    checkActivate: app/activate                                     # 激活注册请求
+    resendEmail: app/resend                                         # 重发邮件
+    forgetpwdCheck: app/forgot                                      # 忘记密码身份确认请求
+    forgetpwdReset: app/forget_password                             # 忘记密码后的密码重置
+    checkForgetPwdEmail: app/email/expire                           # 验证忘记密码邮件激活
+    usersList: app/user/list                                        # 所有管理员列表
+    userSave: app/user/save                                         # 保存用户权限
+
+    #overview page(dashboard and network)
+    chartAp: app/dashboard/ap/online                                # Common--AP图表
+    chartClient: app/dashboard/client/channel                       # Common--Clients图表
+    alertList: app/system/alert/detail                              # Common--Alert列表
+    topApList: app/dashboard/top/ap                                 # Common--Top APs列表
+    topSsidList: app/dashboard/top/ssid                             # Common--Top SSIDs列表
+    topClientList: app/dashboard/top/client                         # Common--Top Clients列表
+    chartClientsCount: app/statistics/client                        # 所有Clients Count图表
+    chartBandUsage: app/statistics/bandwidth                        # 所有bandwidth图表
+
+    #dashboard network list page
+    networkList: app/dashboard/networkList                          # Dashboard--network列表
+    networkDelete: app/dashboard/network/delete                     # Dashboard--network列表删除
+    networkItem: app/dashboard/networkItem                          # Dashboard--add network项
+    networkAdd: app/addNetwork                                      # 添加网络组
+
+    #dashboard ap list page
+    allApList: app/dashboard/allApList                              # Dashboard--ap列表
+
+    #ap summary page
+    apChannel: app/ap/monitor/channel                               # AP--Summary AP Channel图表
+    apSummary: app/ap/monitor/summary                               # AP--Summary AP图表
+
+    #ap status page
+    apStatusList: app/ap/monitor/list                               # AP--Status列表
+    apLocate: app/ap/configure/locate                               # AP--定位
+    apClear: app/ap/clear                                           # AP--清除流量
+
+    #ap detail page
+    apClient: app/ap/monitor/client                                 # AP--详情页面Current Client列表
+    apEventLog: app/ap/monitor/eventLog                             # AP--详情页面Event Log列表
+    apInfo: app/ap/monitor/info                                     # AP--详情页面Info列表
+    debugForm: app/ap/monitor/ping                                  # AP--详情页面Debug表单
+
+
+    #ap configure page
+    apConfigList: app/ap/configure/list                             # AP--Configuration列表
+    apConfigItem: app/ap/configure/configItem                       # AP--配置项
+    apConfig: app/ap/configure/apConfig                             # AP--提交配置项
+    apMoveItem: app/ap/configure/moveItem                           # AP--获取移动网络列表
+    apAdd: app/ap/configure/add                                     # AP--添加
+    apMove: app/ap/configure/move                                   # AP--批量移动
+    apDelete: app/ap/configure/delete                               # AP--批量删除
+    apReboot: app/ap/configure/reboot                               # AP--批量重启
+    apBridge: app/ap/configure/bridge                               # AP--桥接
+
+    #client summary page
+    clientsStatistics: app/client/statistics/integrated             # client-general的综合统计数据
+
+    #client status page
+    clientsList: app/client/list                                    # clients 列表
+    clientsEdit: app/client/edit                                    # clients 编辑 hostname
+    clientsSave: app/client/save                                    # clients 保存 hostname
+    clientsBlock: app/client/block                                  # clients 阻塞
+
+    #client detail page
+    clientsRoaming: app/client/roaming                              # clients list roaming 列表
+    clientsInfo: app/client/info                                    # clients list info 数据
+
+    #client time banned client page
+    clientsBandList: app/client/restrict                            # clients band list 数据
+    clientsBandRelease: app/client/release                           # clients band 释放client mac
+
+    #client access list page
+    accessList: app/access/list                                     # access list 列表数据
+    accessListSave: app/access/save                                 # 新增添加 access list
+    accessListEdit: app/access/edit                                 # 编辑保存 access list
+    accessListInfo: app/access/info                                 # access list 详情
+    accessListDelete: app/access/delete                             # 删除 access list
+
+    #client time policy page
+    timePolicyList: app/policy/list                                 # time policy 列表数据
+    timePolicySave: app/policy/save                                 # 新增添加 time policy
+    timePolicyEdit: app/policy/edit                                 # 编辑保存 time policy
+    timePolicyInfo: app/policy/info                                 # time policy 详情
+    timePolicyDelete: app/policy/delete                             # 删除 time policy
+
+    #ssid summary page
+    ssidBandwidth: app/ap/statistics/bandwidth/ssid                 # SSID--Summary Bandwidth Per SSID图表
+    ssidClientsCount: app/client/statistics/general                 # ssid summary页面，clients count表
+
+    #ssid configuration page
+    ssidList: app/ssid/list                                         # SSID--列表
+    ssidDelete: app/ssid/delete                                     # SSID--删除
+    ssidEdit: app/ssid/ssidEdit                                     # SSID--提交编辑项
+    ssidWifiSettingsItem: app/ssid/editItem                                 # SSID--弹框中WiFi
+    ssidMembershipItem: app/ssid/member/list                            # SSID--弹框中Membership
+    ssidScheduleItem: app/ssid/scheduleConfig                           # SSID--弹框中Schedule
+
+    #bandwidth rules page
+    bandwidthRulesAdd: app/bandwidth/add                            # 打开添加带宽规则页面
+    bandwidthRulesSave: app/bandwidth/save                          # 保存带宽规则
+    bandwidthRulesEdit: app/bandwidth/edit                          # 打开编辑带宽规则页面
+    bandwidthRulesDelete: app/bandwidth/delete                      # 删除带宽规则
+    bandwidthRulesList: app/bandwidth/list                          # 带宽规则列表
+
+    #portal summary page
+    portalSummaryGuest: app/portal/statistics/guest                 # portal新增访客会话
+    portalSummaryRatio: app/portal/statistics/ratio                 # portal访客认证会话
+
+
+    #portal guest page
+    portalMonitorList: app/portal/monitor                           # guest 列表
+
+
+    #portal policy list page
+    portalPolicyList: app/portal/policy/list                        # portal列表
+    portalPoilcyDelete: app/portal/policy/delete                    # 删除policy
+    portalPolicyConfigItem: app/portal/policy/edit?id=              # 获取portal编辑配置项
+    portalConfigEdit: app/portal/policy/edit                        # 保存portal编辑配置项
+    portalConfigAdd: app/portal/policy/add                          # 保存ortal编辑配置项
+
+    #portal splash page
+    portalUploadFile: app/portal/file/upload                        # 上传文件
+    portalFileList: app/portal/splash                               # 上传文件列表
+    portalRestore: app/portal/reset                                 # 恢复至默认
+    portalPageList: app/portal/page/list                            # 启动页列表
+
+    #portal vouchers page
+    portalVoucherSave: app/voucher/save                             #保存凭据组
+    portalVoucherList: app/voucher/list                             #凭据组列表
+    portalVoucherPasswordList: app/voucher/vouchers/list            #某个凭据组里面的密码列表
+    portalVoucherDelete: app/voucher/delete                         #删除凭据组
+
+    #Schedule page
+    scheduleSave: app/schedule/save                                 # 保存新增或编辑的schedule
+    scheduleEdit: app/schedule/edit                                 # 打开某个schedule编辑页面
+    scheduleList: app/schedule/list                                 # schedule的list
+
+    #system setting page
+    sysSettingShow: app/system/setting/show                         # system--setting页面信息获取
+    sysSettingSave: app/system/setting/save                         # 系统模块-setting保存
+
+    #system maintenance page
+    sysSyslogShow: app/system/syslog/show                           # 系统log-查询
+    sysSyslogSave: app/system/syslog/save                           # 系统log-保存
+
+    #system alert page
+    sysEmailShow: app/system/emails/show                            # 系统alert email address查询
+    sysEmailSave: app/system/emails/save                            # 系统alert email address保存
+    sysAlertConfigShow: app/system/alert/add                        # 系统alert configure 配置项查询
+    sysAlertConfigSave: app/system/alert/save                       # 系统alert configure 配置项保存
+    sysAlertDetail: app/system/alert/detail                         # 系统alert detail 查询
+    sysAlertType: app/system/alert/types                            # 系统alert detail 查询
+
+    #system upgrade page
+    sysUpgradeApList: app/system/upgrade/aplist                     # 系统模块-固件升级-Devices列表查询
+    sysRecommendVersion: app/system/upgrade/recommended_version     # 系统模块-固件升级-查询推荐版本
+    sysCustomizedVersion: app/system/upgrade/customized_version     # 系统模块-固件升级-查询定制版本
+    sysUpgradeUpload: app/system/upgrade/upload                     #system--upgrade--firmware--customized version--upload，上传定制版本
+    sysUploadSave: app/system/upgrade/save_firmware_name            # 系统模块-固件升级-保存定制版本
+    sysUpdateVersionInfo: app/system/upgrade/update_firmware_name   # 系统模块-固件升级-编辑定制版本
+    sysDeleteVersion: app/system/upgrade/version_delete             # 系统模块-固件升级-删除定制版本
+    sysApUpgrade: app/system/upgrade/add                            # 系统模块-固件升级-升级
+    sysApUpgradeShow: app/system/upgrade/add?apType=                #system--upgrade--upgrade,选择要升级的AP，upgrade页面
+    sysUpgradeSchedule: app/system/upgrade/policy                   # 系统模块-固件升级-预约查询
+    sysUpgradePolicyDelete: app/system/policy/delete                # 系统模块-固件升级-预约删除

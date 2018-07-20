@@ -1,7 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a157469-4ae5-4bc4-a397-867a9cbcdc82" name="默认的" comment="" />
+    <list default="true" id="4a157469-4ae5-4bc4-a397-867a9cbcdc82" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/data.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connect/dropbear_rsa_client_key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/topological_map.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/HTMLTestRunner_GWN.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/WebValue2ApiValue_Map.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_control/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_control/access_list/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_control/time_policy/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_points/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/guest/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/policy_list/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/splash_page/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/summary/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/vouchers/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clients/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connect/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/ap_list/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/network_list/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/overview/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/log/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/testresultdata/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/navbar/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/navbar/user/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/overview/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicControl/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssids/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/maintenance/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/mesh/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/schedule/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/settings/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/upgrade/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_control/access_list/accesslist_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_control/access_list/accesslist_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/ap_list/allaplist_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/ap_list/allaplist_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/api.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_points/aps_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_points/aps_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/captiveportal_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/captiveportal_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clients/clients_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clients/clients_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/db_config.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/guest/guest_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/guest/guest_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/gui.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/logfile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/mysql_db.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/network_list/networklist_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/network_list/networklist_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/overview/overview_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard/overview/overview_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/policy_list/policylist_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/policy_list/policylist_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicControl/public_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/release_note.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/resolv.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/settings/settings_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/settings/settings_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/splash_page/splashpage_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/splash_page/splashpage_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connect/ssh.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssids/ssids_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ssids/ssids_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/summary/summary_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/summary/summary_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_access_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_ap_configure.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_ap_monitor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_captiveportal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_clients.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_dashboard.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_networklist.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_overview.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_ssids.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_timepolicy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_upgrade.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcase/testcase_user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_control/time_policy/timepolicy_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access_control/time_policy/timepolicy_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/upgrade/upgrade_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/upgrade/upgrade_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/navbar/user/user_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/navbar/user/user_control.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/vouchers/vouchers_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/captive_portal/vouchers/vouchers_control.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="GWN_Cloud_regressiontest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -90,7 +188,7 @@
     <option name="width" value="1280" />
     <option name="height" value="937" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="添加" />
     <OptionsSetting value="true" id="移除" />
     <OptionsSetting value="true" id="签出" />
@@ -143,7 +241,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GWN76xx_regressiontest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
